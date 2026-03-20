@@ -1,0 +1,32 @@
+<svg width="220" height="180" viewBox="0 0 220 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="happyFace" x1="44" y1="48" x2="144" y2="144" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#B9F9DE"/>
+      <stop offset="1" stop-color="#70CCFF"/>
+    </linearGradient>
+    <linearGradient id="sparkBubble" x1="124" y1="18" x2="206" y2="78" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2EE6B9"/>
+      <stop offset="1" stop-color="#36C3FF"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="92" cy="102" r="48" fill="url(#happyFace)"/>
+  <circle cx="78" cy="92" r="6" fill="#0D2A42"/>
+  <circle cx="106" cy="92" r="6" fill="#0D2A42"/>
+  <circle cx="80" cy="90" r="1.8" fill="#ECFBFF"/>
+  <circle cx="108" cy="90" r="1.8" fill="#ECFBFF"/>
+
+  <path d="M76 116C84 127 100 127 108 116" stroke="#103754" stroke-width="4" stroke-linecap="round"/>
+  <ellipse cx="70" cy="108" rx="7" ry="4" fill="#FF99B9" opacity="0.68"/>
+  <ellipse cx="114" cy="108" rx="7" ry="4" fill="#FF99B9" opacity="0.68"/>
+
+  <path d="M72 56L80 47" stroke="#8AF4D2" stroke-width="4" stroke-linecap="round"/>
+  <path d="M114 56L106 47" stroke="#8AF4D2" stroke-width="4" stroke-linecap="round"/>
+
+  <path d="M132 22H196C202.627 22 208 27.373 208 34V58C208 64.627 202.627 70 196 70H170L156 84V70H132C125.373 70 120 64.627 120 58V34C120 27.373 125.373 22 132 22Z" fill="url(#sparkBubble)"/>
+  <text x="164" y="51" text-anchor="middle" fill="#F3FEFF" font-size="18" font-family="Nunito, Arial, sans-serif" font-weight="700">Yay!</text>
+
+  <path d="M40 46L43 52L50 54L44 58L42 65L38 59L31 58L37 54L40 46Z" fill="#86E7FF"/>
+  <path d="M26 124L28.8 129L34.6 130.2L29.9 134L30.8 139.8L26 137.2L21.2 139.8L22.1 134L17.4 130.2L23.2 129L26 124Z" fill="#2EE6B9" opacity="0.85"/>
+  <path d="M132 140L134.8 145L140.6 146.2L135.9 150L136.8 155.8L132 153.2L127.2 155.8L128.1 150L123.4 146.2L129.2 145L132 140Z" fill="#36C3FF" opacity="0.85"/>
+</svg>
