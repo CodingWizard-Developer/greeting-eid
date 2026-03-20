@@ -598,12 +598,31 @@
 }
 
 @media (max-width: 768px) {
+  .intro-content {
+    width: 100%;
+    padding-inline: 0.25rem;
+  }
+
   .intro-equation-stage {
     min-height: 132px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    justify-items: start;
+    padding-inline: 0.2rem;
   }
 
   .intro-katex-shell {
+    width: max-content;
+    min-width: 100%;
+    justify-content: flex-start;
     padding-inline: 0;
+    font-size: clamp(0.78rem, 2.7vw, 1.02rem);
+    gap: clamp(0.2rem, 0.7vw, 0.45rem);
+  }
+
+  .fraction-numerator,
+  .fraction-denominator {
+    min-height: 1.25em;
   }
 
   .card-shell {
