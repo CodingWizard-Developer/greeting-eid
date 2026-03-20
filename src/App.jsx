@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 import EidExperience from "./components/EidExperience";
+import Footer from "./components/Footer";
 import IntegrationIntro from "./components/IntegrationIntro";
 import Fireworks from "./components/Fireworks";
 import { INTRO_FRAME_COUNT } from "./data/integrationFrames";
@@ -42,6 +43,7 @@ function App() {
         <EidExperience />
       )}
       {!showIntegrationIntro && <Fireworks active={true} intensity={8} />}
+      <Footer />
     </>
   );
 }

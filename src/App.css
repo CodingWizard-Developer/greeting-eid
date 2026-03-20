@@ -19,6 +19,24 @@
   box-sizing: border-box;
 }
 
+.app-footer {
+  position: fixed;
+  left: 50%;
+  bottom: 0.55rem;
+  transform: translateX(-50%);
+  z-index: 10030;
+  padding: 0.28rem 0.75rem;
+  border-radius: 999px;
+  border: 1px solid rgba(123, 219, 255, 0.2);
+  background: rgba(4, 14, 28, 0.5);
+  color: #b7d9ec;
+  font-family: "Nunito", "Trebuchet MS", sans-serif;
+  font-size: 0.74rem;
+  letter-spacing: 0.01em;
+  pointer-events: none;
+  backdrop-filter: blur(3px);
+}
+
 .integration-intro,
 .eid-app {
   min-height: 100vh;
@@ -617,6 +635,12 @@
   .eidi-popup-happy-svg {
     width: 112px;
     height: 94px;
+  }
+
+  .app-footer {
+    font-size: 0.67rem;
+    bottom: 0.45rem;
+    padding: 0.24rem 0.62rem;
   }
 }
 
